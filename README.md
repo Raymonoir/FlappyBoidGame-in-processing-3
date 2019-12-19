@@ -1,4 +1,11 @@
 # FlappyBoidGame-in-processing-3
-My first game coded in Processing 3, inspired by the "Flappy Bird" application for Iphone and android
 
-A basic game in which the user controls a small bird or "boid" by pressing the space bar and the goal is just to get as high a score as possible by dodging incoming pipes.
+<h1> Background </h1>
+
+My first game coded in Processing 3, inspired by the "Flappy Bird" application for Iphone and android. I decided to create this after watching the youtube channel "Coding Train" and all of his creations in Processing 3.
+
+<h1>Instructions</h1>
+
+Processing 3 must be installed for use, The character " " (Space) increases the y acceleration in the upwards direction to make the boid "fly". If boid hist ceiling, floor or pipe the game is automatically restarted. Score is equal to number of pipes generated.
+
+
