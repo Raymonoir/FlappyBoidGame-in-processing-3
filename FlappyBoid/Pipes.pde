@@ -1,6 +1,8 @@
 /**
 *This class is the blueprint for the pipes in which generate on the right side of the screen
-*and act as the players obstacles
+*and act as the players' obstacles
+*
+*Each pipe is made up of two rectangles, one starting from the bottom going up and another starting at the top going down
 *
 *@version 25/01/2019
 *@author Raymond Ward
@@ -11,9 +13,10 @@
 
 class Pipe
 {
+  //Sets required properties for any given pipe
   int WIDTH = 50;
-  float heightTop = floor(random(height - 400, height /2 - 50));
-  float heightBottom = floor(random(height -400 ,(height - 50)/2) -20);
+  float heightTop = floor(random(height - 400, height /2 - 50)); //high from top
+  float heightBottom = floor(random(height -400 ,(height - 50)/2) -20); //hight from bottom
   float xPos = width-WIDTH;
   
   
