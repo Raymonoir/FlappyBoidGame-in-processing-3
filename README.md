@@ -6,6 +6,6 @@ My first game coded in Processing 3, inspired by the "Flappy Bird" application f
 
 <h1>Instructions</h1>
 
-Processing 3 must be installed for use, The character " " (Space) increases the y acceleration in the upwards direction to make the boid "fly". If boid hist ceiling, floor or pipe the game is automatically restarted. Score is equal to number of pipes generated.
+Processing 3 must be installed for use, The character " " (Space) increases the y acceleration in the upwards direction to make the boid "fly". If boid hits ceiling, floor or pipe the game is automatically restarted. Score is equal to number of pipes generated.
 
 
